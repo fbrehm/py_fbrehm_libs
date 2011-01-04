@@ -11,7 +11,7 @@ made by Frank Brehm.
 '''
 
 setup( name = 'fbrehm-libs',
-       version = '0.2',
+       version = '0.3',
        description = 'collection of common python modules by Frank Brehm',
        long_description = long_description,
        author = 'Frank Brehm',
