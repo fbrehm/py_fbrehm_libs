@@ -1,1 +1,3 @@
 include Makefile
+recursive-include debian *
+recursive-include gentoo *
