@@ -10,6 +10,7 @@ BUILDIR=$(CURDIR)/debian/python-$(PROJECT)
 VERSION=$(shell cat setup.py | grep version | sed -e "s/.*=[ 	]*'//" -e "s/'.*//" )
 WWW_DOCROOT=/var/www/localhost/htdocs/projects/$(PROJECT)
 ARCHIVE=$(PROJECT)-$(VERSION).tar.gz
+DEBSIGN_KEYID=BB596E26
 
 all:
 	@echo "make source - Create source package"
@@ -33,7 +34,7 @@ builddeb:
 	$(PYTHON) setup.py sdist $(COMPILE) --dist-dir=../ --prune
 	mv -v ../$(PROJECT)-$(VERSION).tar.gz ../python-$(PROJECT)_$(VERSION).orig.tar.gz
 	# build the package
-	#dpkg-buildpackage -i -I -rfakeroot
+	dpkg-buildpackage -i -I -rfakeroot -k$(DEBSIGN_KEYID)
 
 clean:
 	$(PYTHON) setup.py clean

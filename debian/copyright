@@ -1,0 +1,31 @@
+This package was debianized by Frank Brehm <frank.brehm@profitbricks.com>
+ on Mon, 03 Jan 2011 17:12:37 +0100
+
+It was downloaded from http://www.brehm-online.com.net/projects/fbrehm-libs
+
+Upstream Author:
+
+    Frank Brehm <frank.brehm@profitbricks.com>
+
+Copyright:
+
+    Copyright (C) 2011, Frank Brehm
+
+License: GPL-3
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, see .
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-3'.
+

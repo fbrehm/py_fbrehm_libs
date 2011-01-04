@@ -1,0 +1,5 @@
+python-fbrehm-libs (0.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #0815)
+
+ -- Frank Brehm <frank.brehm@profitbricks.com>  Mon, 03 Jan 2011 16:55:08 +0100
