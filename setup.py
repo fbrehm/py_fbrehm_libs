@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-# $Id$
-# $URL$
-
 from distutils.core import setup
 
 long_description = '''
