@@ -1,3 +1,10 @@
+python-fbrehm-libs (0.4.2-1) unstable; urgency=low
+
+  * Version bump
+  * Added fbrehm/logging/*.py
+
+ -- Developer <frank@brehm-online.com>  Sun, 28 Oct 2012 18:26:12 +0100
+
 python-fbrehm-libs (0.4.1-0) unstable; urgency=low
 
   * Version bump

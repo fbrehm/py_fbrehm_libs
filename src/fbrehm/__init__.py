@@ -9,7 +9,7 @@
 __author__ = 'Frank Brehm <frank@brehm-online.com>'
 __copyright__ = '(C) 2010-2012 by Frank Brehm, Berlin'
 __contact__ = 'frank@brehm-online.com'
-__version__ = '0.4.1-1'
+__version__ = '0.4.2-1'
 __license__ = 'LGPLv3+'
 
 # vim: fileencoding=utf-8 filetype=python ts=4
