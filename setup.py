@@ -30,7 +30,11 @@ setup( name = 'fbrehm',
     url = 'http://www.brehm-online.com/projects/fbrehm-libs',
     license = 'LGPLv3+',
     platforms = ['posix'],
-    packages = [ 'fbrehm', 'fbrehm.common', ],
+    packages = [
+        'fbrehm',
+        'fbrehm.common',
+        'fbrehm.logging',
+    ],
     package_dir = {'': 'src'},
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
