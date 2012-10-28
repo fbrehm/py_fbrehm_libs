@@ -1,3 +1,15 @@
+python-fbrehm-libs (0.4.1-0) unstable; urgency=low
+
+  * Version bump
+
+ -- Developer <frank@brehm-online.com>  Sun, 28 Oct 2012 14:28:23 +0100
+
+python-fbrehm-libs (0.3.0-1) unstable; urgency=low
+
+  * Current state.
+
+ -- Frank Brehm <frank@brehm-online.com>  Sun, 28 Oct 2012 14:25:39 +0100
+
 python-fbrehm-libs (0.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #0815)
